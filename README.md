@@ -1,6 +1,7 @@
-# 3D Virtual Room
 
-A small Three.js project with a virtual room scene powered by `index.html` and `main.js`.
+# 3D Virtual Room - Three.js
+
+An interactive 3D virtual room built using Three.js that provides an immersive walkthrough experience directly in the browser.
 
 ## Files
 
@@ -42,3 +43,72 @@ http://localhost:8000
 
 - The project uses `importmap` in `index.html` to load Three.js from a CDN.
 - No build step or dependencies are required.
+
+## Features
+
+- First-person walkthrough mode
+  - WASD keyboard navigation
+  - Mouse-look controls using Pointer Lock API
+  - Start/Exit Walkthrough button
+
+- Interactive lighting system
+  - Toggle room lights ON/OFF
+  - Ambient and corner lamp lighting
+
+- Interactive TV
+  - Turn TV ON/OFF
+  - Dynamic screen texture switching
+
+- Draggable objects
+  - Move mugs around the room using DragControls
+
+- Realistic room environment
+  - Tables and chairs
+  - Ceiling light panels
+  - Decorative plants
+  - Functional door trigger system
+
+- Responsive design
+  - Automatically adapts to different screen sizes
+
+## Technologies Used
+
+- Three.js
+- JavaScript (ES6 Modules)
+- HTML5
+- WebGL
+- OrbitControls
+- DragControls
+- Pointer Lock API
+
+## Controls
+
+### Normal View
+- Mouse Drag → Orbit around the room
+- Drag mugs to reposition them
+
+### Walkthrough Mode
+- W → Move Forward
+- A → Move Left
+- S → Move Backward
+- D → Move Right
+- Mouse → Look Around
+- ESC → Exit Walkthrough
+
+## Live Demo
+
+https://threejs-virtual-room.vercel.app/
+
+## Future Enhancements
+
+- Collision detection
+- GLTF furniture models
+- Mobile joystick controls
+- Minimap navigation
+- Multiple rooms and floors
+- Animated doors and furniture
+- Ambient sound effects
+
+## Author
+
+Muskan Jain
